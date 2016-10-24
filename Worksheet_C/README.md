@@ -6,17 +6,14 @@ true.  If there is not a duplicate, then it will return false and end the proce
 
 
 b) Quadratic will have the worst running time because the algorithm must check data in each list to see if there is a duplicate this will quadruple the amount of time that it will take for the program to finish.
- 
- 
+  
 c) The algorithm, is still correct because the code checks the previous items in the list with the new item meaning that once the code has completed it will have compared the items but not have made any duplicate comparisons.
  
 d) The algorithm runs twice as fast because it only has to run half the comparisons after taking away the duplicate comparisons.
  
- 
 e)
  
 f) O (n log n)
- 
  
 g) O(n)
  
