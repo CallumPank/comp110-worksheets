@@ -42,6 +42,7 @@ S0 -= 1
 ```
 
 d)
+
 This is because at the start of the program s3 = s0 which is 10. The inner loop does the process 10 * 1. After this s2 now equals 10, s1 now equals the same as s2 so becomes 10. S0 is decreased by 1 so it’s value becomes 9.
 The loop then starts again, but this time s3 equals 9, so the program does 9 *10. 
 
