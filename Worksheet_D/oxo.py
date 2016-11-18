@@ -1,23 +1,20 @@
-from __builtin__ import xrange
-
-
 class OxoBoard:
     def __init__(self):
         """ The initialiser. Initialise any fields you need here. """
-        self.oxoboard = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+        self.oxoboard = [0] * 9
 
     def get_square(self, x, y):
         """ Return 0, 1 or 2 depending on the contents of the specified square. """
-        Tile = x + y * 3
-        return self.oxoboard[Tile]
+        tile = x + y * 3
+        return self.oxoboard[tile]
 
 
     def set_square(self, x, y, mark):
         """ If the specified square is currently empty (0), fill it with mark and return True.
             If the square is not empty, leave it as-is and return False. """
-        Tile = x + y * 3
-        if self.oxoboard[Tile] == 0:
-            self.oxoboard[Tile] = mark
+        tile = x + y * 3
+        if self.oxoboard[tile] == 0:
+            self.oxoboard[tile] = mark
             return True
         else:
             return False
