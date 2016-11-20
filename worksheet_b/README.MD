@@ -1,42 +1,39 @@
+Print Welcome to Terminal 4
 
+Print Password Required
 
-Print Welcome to
-Terminal 4
+Secret Word = Word Generated from List
 
-Print Password
-Required
+While Player Strikes Left < 5
 
-Secret Word = Water
+Player Strikes Left = 0
 
-Player Strikes Left
-= 5
+Player Guesses Left = 5 
 
-Computer generates
-the 11 words in a random order
+Similarity = 0 
 
-                Computer words = ("Bales,
-Towel, Water, Artsy, Fairy, Chair, Wacky, Voice, Dough,            Grass, Knee, Water.")
+While Player guesses left < 4
 
-If Player word is
-not equal to secret word player loses strike 
+If Player Guesses = word character
 
-                if Letters = same position as
-Secret Word display similiarity 
+Similarity = Similarity + 1
 
-                If player word != Secret word
-minus 1 from player strikes 
+Player Guesses Left = Player Guesses Left + 1
 
-Player guesses a
-word 
+Else if
+	Player Guesses Left = Player Guesses + 1
+	End If Statement 
+End While Statement 
 
-                if Player word = Secret word
-player wins 
+Print out Your guess is similar to password by + Similarity 
 
-                if Player word != Secret Word
+If similarity = 6
+Print Player Wins
+IfElse 
+	Player Guesses Left = Player Guesses + 1
+End if 
+End While
 
-loop
-
-Print You Win
 
 ![Flowchart](FlowChart.jpg)
 
