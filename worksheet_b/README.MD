@@ -22,16 +22,21 @@ Player Guesses Left = Player Guesses Left + 1
 
 Else if
 	Player Guesses Left = Player Guesses + 1
+	
 	End If Statement 
+	
 End While Statement 
 
 Print out Your guess is similar to password by + Similarity 
 
 If similarity = 6
+
 Print Player Wins
+
 IfElse 
 	Player Guesses Left = Player Guesses + 1
 End if 
+
 End While
 
 
